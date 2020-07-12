@@ -7,15 +7,20 @@ def loop_message_five_times(string)
 end
 end
 
-def loop_message_n_times("Hello Moon", 5)
+def loop_message_n_times(string, 5)
   i = 5
   while i > 0 do
-    puts "Hello Moon"
+    puts string
     i -= 1
 end
 end
 
-def output array
+def output array(array)
+  i = 0
+  while array[i] do
+    puts array[i]
+    array += 1
+end
 end
 
 def return_string_array
